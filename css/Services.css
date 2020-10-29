@@ -32,3 +32,49 @@ h5{
     font-size: 150%; 
     font-family: 'Times New Roman', Times, serif;
 }
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'main main none sidebar'
+    'footer footer footer footer';
+    grid-gap: 10px;
+    
+    padding: 10px 10px ;
+    border: groove 3px black;
+}
+.item1{
+    text-align:center;
+    grid-area: header;
+    padding: 50px  50px ;
+    color: black;
+    border: 3px groove black;
+}
+.item2{
+    text-align: center;
+    grid-area: main;
+    padding: 50px  50px ;
+    color: black;
+    border: 3px groove black;
+}
+.item3{
+    text-align: center;
+    grid-area: none;
+    padding: 50px  50px ;
+    color: black;
+    border: 3px groove black;
+}
+.item4{
+    text-align: center ;
+    grid-area: sidebar;
+    padding: 50px  50px ;
+    color: black;
+    border: 3px groove black;
+}
+.item5{
+    text-align: center;
+    grid-area: footer;
+    padding: 50px 50px ;
+    color: black;
+    border: 3px groove black;
+}

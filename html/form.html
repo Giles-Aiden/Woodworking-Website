@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="../images/Wood.png">
+  <link rel="stylesheet" href="../css/form.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <input type="text" placeholder="Search.." style="position: fixed; text-align: center; bottom: 0; right: 0;">
+  <div style='margin-left: auto; margin-right: auto; width: 100%; height: 5rem'>
+    <table style="position: absolute; width: 65%; border: black 7px groove; border-collapse: collapse; margin-left: 16rem; margin-right: auto;">
+      <tr>
+   	    <td style="font-size: 200%; text-align: center;"><a href="index.html">Home</a></td>
+     	  <td style="font-size: 200%; text-align: center;"><a href="services.html">Skills&Services</a></td>
+        <td style="font-size: 200%; text-align: center;"><a href="gallery.html">Photo Gallery</a></td>
+       <td style="font-size: 200%; text-align: center;"><a href="form.html">Order</a></td>
+      </tr>
+    </table>
+  </div>
+  <div style='width: 60rem; margin-left: auto; margin-right: auto; text-align: left;'>
+    <form>
+      <fieldset>
+        <legend>Create account with us for updates!</legend>
+        <label for= "email">Email:</label><input type= "text" id= "email" name= "user.email"><br>
+        <label for= "pass">Password:</label><input type= "text" id= "pass" name= "user.pass"><br>
+        <label for= "cpass">Confirm Password:</label><input type= "text" id= "cpass" name= "user.cpass"><br>
+        <br>
+        <input type= "submit" value='Create your account!'>
+        <input type="reset" value='Reset'>
+      </fieldset>
+    </form>
+    <br>
+    <br>
+    <form>
+      <fieldset>
+        <legend>How much Bowls would you like to order</legend>
+        <input type="radio" id="bowl.amount.1" name="bowl.amount" value="1">
+        <label for="bowl.amount.1">1</label><br>
+        <input type="radio" id="bowl.amount.2" name="bowl.amount" value="2">
+        <label for="bowl.amount.2">2</label><br>
+        <input type="radio" id="bowl.amount.3" name="bowl.amount" value="3">
+        <label for="bowl.amount.3">3</label><br>
+        <input type="radio" id="bowl.amount.4" name="bowl.amount" value="4">
+        <label for="bowl.amount.4">4</label><br>
+        <input type="radio" id="bowl.amount.5" name="bowl.amount" value="5">
+        <label for="bowl.amount.5">5</label><br>
+        <input type="radio" id="bowl.amount.6" name="bowl.amount" value="6">
+        <label for="bowl.amount.6">6+</label><br>
+      </fieldset>
+      <fieldset>
+        <legend>Any speical services you would like to apply!</legend>
+        <input type="checkbox" id="bowl.services.1" name="bowl.services" value="Blue">
+        <label for="bowl.services.1">Color: Blue</label><br>
+        <input type="checkbox" id=" bowl.services.2" name="bowl.services" value="Red">
+        <label for="bowl.services.2"> Color: Red</label><br>
+        <input type="checkbox" id="bowl.services.3" name="bowl.services" value="Purple">
+        <label for="bowl.services.3"> Color: Purple</label><br>
+        <input type="checkbox" id="bowl.services.4" name="bowl.services" value="Black">
+        <label for="bowl.services.4"> Color: Black</label><br>
+        <label for= "body">Any Different Services?:</label><br>
+        <textarea name= "bowl.services.message" id= "bowl.body" cols="30" rows="5"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>How much Tables would you like to order</legend>
+        <input type="radio" id="table.amount.1" name="table.amount" value="1">
+        <label for="table.amount.1">1</label><br>
+        <input type="radio" id="" name="table.amount" value="2">
+        <label for="table.amount.1">2</label><br>
+        <input type="radio" id="table.amount.2" name="table.amount" value="3">
+        <label for="table.amount.2">3</label><br>
+        <input type="radio" id="table.amount.3" name="table.amount" value="3">
+        <label for="table.amount.3">4</label><br>
+        <input type="radio" id="table.amount.4" name="table.amount" value="3">
+        <label for="table.amount.4">5</label><br>
+        <input type="radio" id="table.amount.5" name="table.amount" value="3">
+        <label for="table.amount.5">6+</label><br>
+      </fieldset>
+      <fieldset> 
+        <legend>Any speical services you would like to apply!</legend>
+        <input type="checkbox" id="table.services.1" name="table.services" value="Blue">
+        <label for="table.services.1">Color: Blue</label><br>
+        <input type="checkbox" id=" table.services.2" name="table.services" value="Red">
+        <label for="table.services.2"> Color: Red</label><br>
+        <input type="checkbox" id="table.services.3" name="table.services"value="Purple">
+        <label for="table.services.3"> Color: Purple</label><br>
+        <input type="checkbox" id="table.services.4" name="table.services"value="Black">
+        <label for="table.services.4"> Color: Black</label><br>
+        <label for= "body">Any Different Services?:</label><br>
+        <textarea name= "table.services.message" id= "body" cols="30" rows="5"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>How much Dressers would you like to order</legend>
+        <input type="radio" id="dressers.amount.1" name="dressers.amount" value="1">
+        <label for="dressers.amount.">1</label><br>
+        <input type="radio" id="dressers.amount.2" name="dressers.amount" value="2">
+        <label for="dressers.amount.1">2</label><br>
+        <input type="radio" id="dressers.amount.3" name="dressers.amount" value="3">
+        <label for="dressers.amount.2">3</label><br>
+        <input type="radio" id="dressers.amount.4" name="dressers.amount" value="3">
+        <label for="dressers.amount.3">4</label><br>
+        <input type="radio" id="dressers.amount.5" name="dressers.amount" value="3">
+        <label for="dressers.amount.4">5</label><br>
+        <input type="radio" id="dressers.amount.6" name="dressers.amount" value="3">
+        <label for="dressers.amount.5">6+</label><br>
+      </fieldset>
+      <fieldset> 
+        <legend>Any speical services you would like to apply!</legend>
+        <input type="checkbox" id="dressers.services.1" name="dressers.services" value="Blue">
+        <label for="dressers.services.1">Color: Blue</label><br>
+        <input type="checkbox" id="dressers.services.2" name="dressers.services" value="Red">
+        <label for="dressers.services.2"> Color: Red</label><br>
+        <input type="checkbox" id="dressers.services.3" name="dressers.services"value="Purple">
+        <label for="dressers.services.3"> Color: Purple</label><br>
+        <input type="checkbox" id="dressers.services.4" name="dressers.services"value="Black">
+        <label for="dressers.services.4"> Color: Black</label><br>
+        <label for= "body">Any Different dressers.services.?:</label><br>
+        <textarea name= "dressers.services.message" id= "body" cols="30" rows="5"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>How much Cabinets would you like to be done?</legend>
+        <input type="radio" id="cabinets.amount.1" name="cabinets.amount" value="1">
+        <label for="cabinets.amount.1">1</label><br>
+        <input type="radio" id="cabinets.amount.2" name="cabinets.amount" value="2">
+        <label for="cabinets.amount.2">2</label><br>
+        <input type="radio" id="cabinets.amount.3" name="cabinets.amount" value="3">
+        <label for="cabinets.amount.3">3</label><br>
+        <input type="radio" id="cabinets.amount.4" name="cabinets.amount" value="4">
+        <label for="cabinets.amount.4">4</label><br>
+        <input type="radio" id="cabinets.amount.5" name="cabinets.amount" value="5">
+        <label for="cabinets.amount.5">5</label><br>
+        <input type="radio" id="cabinets.amount.6" name="cabinets.amount" value="6">
+        <label for="cabinets.amount.6">6+</label><br>
+      </fieldset>
+      <fieldset> 
+        <legend>Any speical services you would like to apply!</legend>
+        <input type="checkbox" id="cabinets.services.1" name="cabinets.services" value="Blue">
+        <label for="cabinets.services.1">Color: Blue</label><br>
+        <input type="checkbox" id="cabinets.services.2" name="cabinets.services" value="Red">
+        <label for="cabinets.services.2"> Color: Red</label><br>
+        <input type="checkbox" id="cabinets.services.3" name="cabinets.services"value="Purple">
+        <label for="cabinets.services.3"> Color: Purple</label><br>
+        <input type="checkbox" id="cabinets.services.4" name="cabinets.services"value="Black">
+        <label for="cabinets.services.4"> Color: Black</label><br>
+        <label for= "body">Any Different services?:</label><br>
+        <textarea name="cabinets.services.message" id= "body" cols="30" rows="5"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Order Finalization</legend>
+        <input type="reset" value='Reset Form'>
+        <br>
+        <br>
+        <input type='checkbox' id='user.confirm' name='user.confirm' value='true'>
+        <label for='user.confirm'>By clicking this you are confirming that you have put all your information in correctly and agree to our terms of service...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis leo nec sapien vestibulum gravida quis id leo. Donec condimentum vestibulum tortor, non suscipit erat maximus vitae. Integer a turpis tincidunt, condimentum nunc sed, rhoncus ex. Nam nec tincidunt tortor, vel molestie purus. In suscipit nec tellus at ultricies. Sed ornare sollicitudin felis, efficitur fermentum nulla dictum non. You agree that within 7 days your soul will belong to A&A inc. Nunc sit amet nunc id lorem sodales mollis. Donec et nulla at augue rutrum dignissim. Curabitur sagittis facilisis purus, vitae pharetra tellus commodo sed. Donec vel justo sit amet magna rutrum congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus.</label>
+        <br>
+        <input type= "submit" value='Submit Order'>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>

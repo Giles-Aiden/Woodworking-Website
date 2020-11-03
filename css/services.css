@@ -21,14 +21,17 @@ p{
     margin-right: auto;
     display: block;
 }
-/*
+
 table{
     border: black 3px groove;
+    table-layout: auto;
+    width: 100%;
 }
 td{
-    border: black 3px groove; 
+    padding: .5px;
 }
-*/
+
+
 h5{
     text-align: center;
     font-size: 150%; 
@@ -41,9 +44,10 @@ h5{
     'main main none sidebar'
     'footer footer footer footer';
     grid-gap: 10px;
-    
     padding: 10px 10px ;
+    width: 100%;
     border: groove 3px black;
+
 }
 .item1{
     text-align:center;
@@ -51,6 +55,7 @@ h5{
     padding: 50px  50px ;
     color: black;
     border: 3px groove black;
+    
 }
 .item2{
     text-align: center;
@@ -58,6 +63,7 @@ h5{
     padding: 50px  50px ;
     color: black;
     border: 3px groove black;
+    
 }
 .item3{
     text-align: center;
@@ -65,6 +71,7 @@ h5{
     padding: 50px  50px ;
     color: black;
     border: 3px groove black;
+    
 }
 .item4{
     text-align: center ;
@@ -72,6 +79,7 @@ h5{
     padding: 50px  50px ;
     color: black;
     border: 3px groove black;
+    
 }
 .item5{
     text-align: center;
@@ -79,6 +87,7 @@ h5{
     padding: 50px 50px ;
     color: black;
     border: 3px groove black;
+    
 }
 img{
     border: black 3px groove;
@@ -91,5 +100,12 @@ h3{
 #id1{
     font-size: 120%;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+footer{
+    border: black 3px groove;
+    text-align: center;
+}
+h4{
     text-align: center;
 }

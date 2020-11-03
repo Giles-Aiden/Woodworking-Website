@@ -1,0 +1,13 @@
+.flex-gallery {
+	display: flex;
+}
+
+.row {
+	flex-flow: column wrap;
+	padding: 0 4em;
+}
+
+.column {
+	flex: 20%;
+	padding: 0 4em;
+}

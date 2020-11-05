@@ -1,13 +1,59 @@
+body {
+  background-color: #7d7d7d;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%237d7d7d' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23878786' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23919190' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%239b9b99' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23a6a5a3' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23b0afad' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  border: 0.1em solid black;
+  border-radius: 1em;
+}
+
+video {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
 .flex-gallery {
-	display: flex;
+	flex-flow: row wrap;
+  flex: 100%;
+  background-color: red;
+  width: 100%;
 }
 
 .row {
-	flex-flow: column wrap;
-	padding: 0 4em;
+	display: flex;
+	flex-wrap: wrap;
+  padding: 1em 1em;
+  border: 1em double 
 }
 
 .column {
-	flex: 20%;
-	padding: 0 4em;
+	flex: 30%;
+  max-width: 32%;
+  padding: 1em;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 1200px) {
+  .column {
+    flex: 45%;
+    padding: 2%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
 }
